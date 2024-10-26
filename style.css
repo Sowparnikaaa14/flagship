@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(../../../Downloads/bg3.jpg); /* Green background */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    color: white; /* Text color for better readability */
+}
+}
+
+header {
+    background-image:url(../../../Downloads/bg3.jpg); /* Green background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-bar {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.menu-bar li {
+    display: inline; /* Horizontal menu items */
+    margin: 0 15px; /* Space between items */
+}
+
+.menu-bar a {
+    color: white; /* White text */
+    text-decoration: none; /* Remove underline */
+}
+
+.menu-bar a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #4CAF50; /* Green color for headings */
+}
+
+ol {
+    padding-left: 20px; /* Indentation for ordered list */
+}
+
+button {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333; /* Dark background for footer */
+    color: white;
+}
+#signup-form {
+    max-width: 400px; /* Limit form width */
+    margin: 0 auto; /* Center the form */
+    padding: 20px;
+    border: 1px solid #ccc; /* Border for the form */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background */
+}
+
+label {
+    display: block; /* Block display for labels */
+    margin: 10px 0 5px; /* Space around labels */
+}
+
+input {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Space inside inputs */
+    margin-bottom: 15px; /* Space below inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 4px; /* Rounded corners */
+}
+
+button {
+    width: 100%; /* Full width for the button */
+}
